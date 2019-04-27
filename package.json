@@ -1,0 +1,38 @@
+{
+  "name": "airbeds",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://appbaseio-apps.github.io/airbeds",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "react-scripts": "1.0.17"
+  },
+  "dependencies": {
+    "@appbaseio/reactivesearch": "^2.0.0-beta-01",
+    "@jonny/react-video-cover": "^1.1.0",
+    "@material-ui/core": "^3.9.3",
+    "create-react-app": "^1.4.3",
+    "global": "^4.3.2",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.4",
+    "nodemailer": "^5.1.1",
+    "react": "^16.3.0",
+    "react-dom": "^16.8.6",
+    "react-images-upload": "^1.2.6",
+    "react-native": "^0.59.5",
+    "react-native-video": "^4.4.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "1.1.4",
+    "react-stripe-elements": "^3.0.0",
+    "react-video-cover": "^1.2.2",
+    "sequelize": "^4.41.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
